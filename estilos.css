@@ -1,0 +1,150 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+
+.conteudo-do-site {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+
+.rodapé {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.rodapé img {
+    height: 150px;
+    margin-right: 50px; 
+}
+
+.rodapé button {
+    color: red;
+    padding: 15px 25px; 
+    background-color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-size: large;
+   
+}
+
+.rodapé button:hover {
+    color: rgba(255, 0, 0, 0.63);
+}
+
+
+.inicio h1 {
+    color: red;
+    font-size: xx-large;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 0;
+}
+
+.inicio .subtitulo {
+    color: red;
+    text-align: center; 
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.inicio h2 {
+    color: red;
+    text-align: center; 
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.inicio img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    padding: 10px;
+}
+
+
+.texto-historia {
+    color: red;
+    font-size: 1.1em;
+    line-height: 1.6;
+    text-align: justify; 
+    padding: 10px 0;
+   
+}
+.secao-personagens {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.secao-personagens h2 {
+    color: red;
+    font-size: xx-large;
+    margin-bottom: 40px;
+}
+
+
+.container-cards {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+
+.card {
+    background-color: #1a1a1a; 
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition: transform 0.3s ease; 
+}
+
+
+.card:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 16px rgba(255, 0, 0, 0.2); 
+}
+
+.card img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover; 
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card h3 {
+    color: red;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #ccc;
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+.card button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: darkred;
+}
